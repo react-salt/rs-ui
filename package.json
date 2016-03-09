@@ -1,14 +1,14 @@
 {
-  "name": "meow-ui",
+  "name": "rs-ui",
   "version": "0.0.1",
-  "description": "ui for cat-meow component",
-  "main": "./dist/bootstrap.css",
+  "description": "ui for react salt component",
+  "main": "./dist/react-salt-ui.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pre-publish": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cat-Meow/meow-ui.git"
+    "url": "git@github.com:react-salt/rs-ui.git"
   },
   "keywords": [
     "ui",
@@ -18,17 +18,16 @@
   "author": "yanweiqing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Cat-Meow/meow-ui/issues"
+    "url": "https://github.com/react-salt/rs-ui/issues"
   },
-  "homepage": "https://github.com/Cat-Meow/meow-ui#readme",
+  "homepage": "https://github.com/react-salt/rs-ui#readme",
   "devDependencies": {
-    "cat-grid": "^1.0.1",
-    "cat-pagination": "^1.0.2",
     "gulp": "^3.9.0",
     "gulp-less": "^3.0.5",
     "gulp-minify-css": "^1.2.3",
     "gulp-rename": "^1.2.2",
     "myui-core": "^0.1.0",
+    "rs-panel": "^0.1.2",
     "run-sequence": "^1.1.5"
   },
   "files": [

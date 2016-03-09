@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence');
 
 gulp.task('copy', function() {
-    return gulp.src('./node_modules/cat-*/assets/*.less')
+    return gulp.src('./node_modules/rs-*/assets/*.less')
         .pipe(gulp.dest('./lib'));
 });
 
@@ -17,7 +17,7 @@ gulp.task('less', function () {
         }))
         .pipe(minifyCSS())
         .pipe(rename(function(path){
-            path.basename = "bootstrap";
+            path.basename = "react-salt-ui";
         }))
         .pipe(gulp.dest('./dist'));
 });
