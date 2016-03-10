@@ -36,5 +36,8 @@
     "less/",
     "lib/",
     "index.less"
-  ]
+  ],
+  "dependencies": {
+    "rs-pagination": "^0.1.0"
+  }
 }
